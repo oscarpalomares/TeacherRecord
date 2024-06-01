@@ -1,0 +1,46 @@
+.animated {
+    border: 1px solid #4c03f7;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.animated-checkbox {
+    margin-right: 10px;
+}   
+
+.checkbox-label {
+    transition: color 1s;
+}
+
+.selected-info {
+    color: green;
+    font-weight: bold;
+}
+
+.selected-info2 {
+    color: blue;
+    font-weight: bold;
+}
+
+.selected-info3 {
+    color: rgb(188, 13, 241);
+    font-weight: bold;
+}
+.selected-info4 {
+    color: rgb(255, 208, 0);
+    font-weight: bold;
+}
+
+#hideShowContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+.custom-background {
+    background-color: rgb(8, 30, 102);
+    color:white;
+}
+#divformedit {
+    display: none;
+}
