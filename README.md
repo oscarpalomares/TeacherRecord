@@ -5,6 +5,8 @@ This project is focused on maintaining a record of all the teachers registered a
 
 With this project, I aim to offer a lightweight, secure, and fast alternative for maintaining records of teachers, their classrooms, their subjects, and their schedules, providing a responsive, organic, and lightweight interface, using simple and fast technology for easy administration and maintenance.
 
+All code is commented with an insight of how I came up with solutions and tech demo overall.
+
 # Entity-Relationship Diagram
 
 ![Entity-Relationship Diagram](./readmedata/entitydiagram.png)
