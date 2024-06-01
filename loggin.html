@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Log in</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <link rel="stylesheet" href="style/styleeditteacher.css">
+            <link rel="icon" href="img/lasalle.ico" type="image/ico">
+        </head>
+        <body>
+            <div class="container mt-5 custom-background">
+                <br><br><h2 class="text-center mb-4">Universidad La Salle</h2>
+                <h2 class="text-center mb-4">Teachers file</h2><br>
+            </div>
+
+            <div class="container"> <!--Login-->
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div id = "divlogin">
+                            <form id="formloggin" action="php/loggin.php" target="_self" method="POST"> <!-- Where the magic happens -->
+                                <div id="animations-container"> <!--For containers-->
+                                    <div id="hideShowContainer" class="p-4">
+                                        <h1 class="text-center mb-4">Log in</h1>
+                                        <div class="mb-4" id="loginemaildiv">
+                                            <label for="email" class="text-center">E-mail</label><br>
+                                            <input type="email" id="email" name="Email" class="form-control" placeholder="johnappleseed@icloud.com" maxlength="49" required>
+                                        </div>
+                                        
+                                        <div class="mb-4" id="logingpassdiv">
+                                            <label for="password" class="text-center">Password</label><br>
+                                            <input type="password" id="password" name="Password" class="form-control" placeholder="Abc.123#$" maxlength="49" required>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div id="LoginButton" class="mb-4">
+                                    <div class = "d-flex justify-content-center">
+                                        <input type="submit" id="loginbtnregister" value="Log in" class="btn btn-success">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" id="registerfromlogindiv">
+                <p class="d-inline">Not Registered?</p>
+                <a href="registernewadmin.html">Register now</a>
+            </div>
+        </body>
+    </html>
+</html>

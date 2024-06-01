@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Register New Classroom</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <link rel="stylesheet" href="style/styleregisternewclassroom.css">
+            <script src="scripts/jsscriptregisternewclassroom.js"></script>
+            <link rel="icon" href="img/lasalle.ico" type="image/ico">
+            <script>
+                //Limit input in Number fields.
+                function LimitInputNumber3(event) {
+                    var number = event.target.value;
+                    number = number.toString();
+                    if (number.length > 3) {
+                    number = number.slice(0, 3);
+                    }
+                    event.target.value = number;
+                }
+            </script>
+        </head>
+    <body>       
+        
+        <div class="container mt-5 custom-background">
+            <br><br><h2 class="text-center mb-4">Universidad La Salle</h2>
+            <h2 class="text-center mb-4">Teachers file</h2><br>
+        </div>
+
+        <div id="ReturnToIndex" class="row justify-content-center">
+            <div class="mb-4">
+                <br>
+                <a href="index.php" class="btn btn-primary">Return to Index</a>
+            </div>
+        </div>
+
+        <div class="container"> 
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div id = "RegisterUser">
+                        <form id="formregisterclassroom" action="php/registernewclassroom.php" target="_self" method="POST">
+                            <div id="animations-container">
+                                <div id="hideShowContainer" class="p-4">
+                                    <h1 class="text-center">Register New Classroom</h1>
+                                    <br>
+                                    <div id="classroomnumberdiv">
+                                        <label for="classroomnumber">Classroom</label><br>
+                                            <input type="number" id="classroomnumber" name="ClassroomNumber" class="form-control" placeholder="101..." oninput="LimitInputNumber3(event)" required>
+                                    </div>
+                                    <br>    
+
+                                    <div id="SubmitButton" class="mb-4">
+                                        <div class = "d-flex justify-content-center">
+                                            <input type="submit" id="submitbtnregister" value="Register Classroom" class="btn btn-success">
+                                        </div>
+                                    </div>
+                            
+                                    <div id="ResetButton" class="mb-4">
+                                        <div class = "d-flex justify-content-center">
+                                            <input type="reset" value="Reset Form" class="btn btn-danger" onclick="ResetForm()">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 
