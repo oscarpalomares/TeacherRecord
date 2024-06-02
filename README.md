@@ -13,19 +13,19 @@ All code is commented with an insight of how I came up with solutions and tech d
 
 # Interface Navigation Diagram
 
-![Entity-Relationship Diagram](./readmedata/navDiagram.png)
+![Interface Navigation Diagram](./readmedata/navDiagram.png)
 
 # Interface Design
 
-![Entity-Relationship Diagram](./readmedata/viewDiagram.png)
+![Interface Diagram](./readmedata/viewDiagram.png)
 
 # Application Architecture
 
-![Entity-Relationship Diagram](./readmedata/appArq.png)
+![Application Diagram](./readmedata/appArq.png)
 
 # Use Case Diagrams
 
-![Entity-Relationship Diagram](./readmedata/UseCaselvl1.png)
+![Use Case Diagram](./readmedata/UseCaselvl1.png)
 
 1. Register a new Teacher
 
@@ -103,8 +103,20 @@ The use case begins when the Admin opens the form to register the new Admin.
 
 # Sequence Diagrams
 
-![Entity-Relationship Diagram](./readmedata/seqDiag1.png)
+![Sequence Diagram](./readmedata/seqDiag1.png)
 
-![Entity-Relationship Diagram](./readmedata/seqDiag2.png)
+![Sequence Diagram](./readmedata/seqDiag2.png)
 
-![Entity-Relationship Diagram](./readmedata/seqDiag3.png)
+![Sequence Diagram](./readmedata/seqDiag3.png)
+
+# Screenshots
+
+![Screenshot](./readmedata/1.png)
+
+![Screenshot](./readmedata/2.png)
+
+![Screenshot](./readmedata/3.png)
+
+![Screenshot](./readmedata/4.png)
+
+![Screenshot](./readmedata/5.png)
